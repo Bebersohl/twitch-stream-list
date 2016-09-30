@@ -3,10 +3,12 @@ import StreamerListContainer from '../containers/StreamerListContainer'
 import Header from './Header'
 import StreamSearchBar from '../containers/StreamSearchBar'
 const App = () => (
-  <div>
-    <Header />
-    <StreamSearchBar />
-    <StreamerListContainer />
+  <div className="app-container">
+    <div className="app">
+      <Header />
+      <StreamSearchBar />
+      <StreamerListContainer />
+    </div>
   </div>
 )
 

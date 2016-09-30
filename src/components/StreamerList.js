@@ -6,7 +6,7 @@ const StreamerList = ({ streams }) => (
     {streams.map(stream =>
       <Streamer
         key={ stream.id }
-        steam={ stream }
+        stream={ stream }
       />
     )}
   </ul>

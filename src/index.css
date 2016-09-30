@@ -3,3 +3,47 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+li a, li a:hover, li a:visited, li a:active, li a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+p, li{
+  color: #FFF;
+}
+li{
+  padding-top: 15px;
+}
+ul{
+  padding: 0;
+  list-style: none;
+}
+i{
+  padding-right: 10px;
+}
+.online i {
+  color: #8ff442
+}
+.offline i {
+  color: #3a3a3a
+}
+.app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #725dbf;
+    height: 100vh;
+}
+.link, .link:hover{
+  color: #8d5ef2;
+}
+.app{
+  background-color: #271838;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 2px 3px 3px 1px rgba(0, 0, 0, 0.2);
+  min-height: 415px;
+}
+.viewers{
+  text-align: left;
+  color: #bca9e5
+}

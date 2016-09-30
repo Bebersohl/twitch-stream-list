@@ -21,3 +21,7 @@ export function loadStreams(){
 export function setVisibilityFilter(filter) {
   return { type: types.SET_VISIBILITY_FILTER, filter }
 }
+
+export function setSearchFilter(filter) {
+  return { type: types.SET_SEARCH_FILTER, filter }
+}
